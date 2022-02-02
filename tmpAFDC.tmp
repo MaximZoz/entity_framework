@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <connectionStrings>
+    <add name="mssql" connectionString="Data Source=.;Initial Catalog=blog;Integrated Security=True;" providerName="System.Data.SqlClient" />
+  </connectionStrings>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="EntityFramework" culture="neutral" publicKeyToken="b77a5c561934e089" />
+        <codeBase version="6.0.0.0" href="file:///C:/Users/m.zozulya/RiderProjects/ConsoleApplication3/packages/EntityFramework.6.4.4/lib/net45/EntityFramework.dll" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>
