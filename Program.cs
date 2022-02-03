@@ -43,7 +43,8 @@ namespace ConsoleApplication3
                 
                 var c1 = new Comment
                 {
-                    Id = db.Posts.FirstOrDefault().Id, Username = "Maxim", Text = "good work",
+                    Id = Guid.NewGuid(),
+                    Username = "Maxim", Text = "good work2", Post = db.Posts.FirstOrDefault()
                 };
                 
                 db.Comments.Add(c1);
