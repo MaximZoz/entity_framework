@@ -10,7 +10,7 @@ namespace ConsoleApplication3.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
         }
     } 
 }

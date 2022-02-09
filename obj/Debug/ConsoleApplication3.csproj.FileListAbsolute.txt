@@ -11,5 +11,7 @@ C:\Users\m.zozulya\RiderProjects\ConsoleApplication3\ConsoleApplication3\bin\Deb
 C:\Users\m.zozulya\RiderProjects\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csproj.CopyComplete
 C:\Users\m.zozulya\RiderProjects\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
 C:\Users\m.zozulya\RiderProjects\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb
-C:\Users\m.zozulya\RiderProjects\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.Migrations.addPosts.resources
+C:\Users\m.zozulya\RiderProjects\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.Migrations.AddUsers.resources
 C:\Users\m.zozulya\RiderProjects\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.csproj.GenerateResource.cache
+C:\Users\m.zozulya\RiderProjects\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.Migrations.AddProducts.resources
+C:\Users\m.zozulya\RiderProjects\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.Migrations.addGenerals.resources

@@ -49,12 +49,21 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="BlogDbContext.cs" />
-        <Compile Include="Migrations\202201310928034_addPosts.cs" />
-        <Compile Include="Migrations\202201310928034_addPosts.Designer.cs">
-          <DependentUpon>202201310928034_addPosts.cs</DependentUpon>
+        <Compile Include="Create.cs" />
+        <Compile Include="Migrations\202202091728100_AddUsers.cs" />
+        <Compile Include="Migrations\202202091728100_AddUsers.Designer.cs">
+          <DependentUpon>202202091728100_AddUsers.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Migrations\202202091751514_AddProducts.cs" />
+        <Compile Include="Migrations\202202091751514_AddProducts.Designer.cs">
+          <DependentUpon>202202091751514_AddProducts.cs</DependentUpon>
+        </Compile>
+        <Compile Include="Migrations\202202091755467_addGenerals.cs" />
+        <Compile Include="Migrations\202202091755467_addGenerals.Designer.cs">
+          <DependentUpon>202202091755467_addGenerals.cs</DependentUpon>
         </Compile>
         <Compile Include="Migrations\Configuration.cs" />
+        <Compile Include="ProductDbContext.cs" />
         <Compile Include="Program.cs" />
     </ItemGroup>
     <ItemGroup>
@@ -62,8 +71,14 @@
       <None Include="packages.config" />
     </ItemGroup>
     <ItemGroup>
-      <EmbeddedResource Include="Migrations\202201310928034_addPosts.resx">
-        <DependentUpon>202201310928034_addPosts.cs</DependentUpon>
+      <EmbeddedResource Include="Migrations\202202091728100_AddUsers.resx">
+        <DependentUpon>202202091728100_AddUsers.cs</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Include="Migrations\202202091751514_AddProducts.resx">
+        <DependentUpon>202202091751514_AddProducts.cs</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Include="Migrations\202202091755467_addGenerals.resx">
+        <DependentUpon>202202091755467_addGenerals.cs</DependentUpon>
       </EmbeddedResource>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

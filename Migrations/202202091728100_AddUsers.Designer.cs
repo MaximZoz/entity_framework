@@ -7,13 +7,13 @@ namespace ConsoleApplication3.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class addPosts : IMigrationMetadata
+    public sealed partial class AddUsers : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(addPosts));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(AddUsers));
         
         string IMigrationMetadata.Id
         {
-            get { return "202201310928034_addPosts"; }
+            get { return "202202091728100_AddUsers"; }
         }
         
         string IMigrationMetadata.Source
